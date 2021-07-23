@@ -1,4 +1,4 @@
-package org.nic;
+package org.nic.Server;
 
 import javafx.embed.swing.SwingFXUtils;
 import javafx.scene.image.Image;
@@ -23,7 +23,7 @@ public class CorruptorLogic {
     	width = (int) image.getWidth();
     	
         Color[][] Color = getPixelData(image);
-        int randomNum = ThreadLocalRandom.current().nextInt(0, (6) + 1);
+        int randomNum = 1;//ThreadLocalRandom.current().nextInt(0, (1) + 1);
 
         if (randomNum==1) {
         return (

@@ -2,5 +2,7 @@ module org.nic {
     requires javafx.controls;
     requires java.desktop;
     requires javafx.swing;
-    exports org.nic;
+    requires java.sql;
+    exports org.nic.Client;
+    exports org.nic.Server;
 }
